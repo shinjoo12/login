@@ -1,0 +1,27 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/omniscient
+    password: omniscient
+    username: omniscient
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
+api:
+  key: "7a51575042706f7733376b565a4e64"
+api_jobaba:
+  key: "d55ff48f2f494121a1aac8098ba57fd2"
+api_grade:
+  key: "44lCRoGkV0t6lSOTh/u/lmAl0jyNue1mF02/PmlsNEqk7ehdIZvtO02rccM7SEOOXX44tf5i7z0tWfeRcJ52ng=="
+
+JWT_SECRET_KEY: "iBLjRtxP+C3y07cKYHtRy0wRWY/ZeJA/vp9TrVpZzPQ="
+
+
+
